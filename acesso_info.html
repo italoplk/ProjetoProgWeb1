@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulado</title>
+
+    <link rel="stylesheet" href="simulado.css">
+
+    
+</head>
+<body>
+
+    <div class="container" id="rowBrasil">
+
+        <a class="flexRow" href="#"> 
+            <img src="images/brasil.png" alt="Brasão do Brasil" width="35px" height="auto">
+            <span id="txtBrasil">Brasil</span>
+        </a>
+
+        <ul class="flexRow" id="ulMenuBrasil">
+            <li class="lisMenuBrasil"><a class="linksBrasil" href="http://www.google.com">Simplifica</a></li>
+            <li class="lisMenuBrasil"><a class="linksBrasil" href="http://www.ifsul.edu.br">Comunica BR</a></li>
+            <li class="lisMenuBrasil"><a class="linksBrasil" href="#">Participe</a></li>
+            <li class="lisMenuBrasil"><a class="linksBrasil" href="#">Acesso a informação</a></li>
+            <li class="lisMenuBrasil"><a class="linksBrasil" href="#">Legislação</a></li>
+            <li class="lisMenuBrasil"><a class="linksBrasil" href="#">Canais</a></li>
+            <li class="lisMenuBrasil" id="lastItemMenuBrasil"><a class="linksBrasil" href="#"><div id="iconeAcessibilidade"></div></a></li>
+
+        </ul>
+    </div>
+
+
+    <div class="container" id="rowHeader">
+
+        <div id="rowUmHeader">
+        <ul class="flexRow" id="menuConteudo">
+            <li class="lisMenu"><a class="linksMenuConteudo" href="#">Ir para o conteúdo    <span class="numConteudo">1</span></a></li>
+            <li class="lisMenu"><a class="linksMenuConteudo" href="#">Ir para o Menu        <span class="numConteudo">2</span></a></li>
+            <li class="lisMenu"><a class="linksMenuConteudo" href="#">Ir para a busca       <span class="numConteudo">3</span></a></li>
+            <li class="lisMenu"><a class="linksMenuConteudo" href="#">Ir para o Rodapé      <span class="numConteudo">4</span></a></li>
+
+        </ul>
+
+        <ul class="flexRow" id="menuAcessibilidade">
+            <li class="lisMenu"><a class="linksMenuAcessibilidade" href="#">Acessibilidade</a></li>
+            <li class="lisMenu"><a class="linksMenuAcessibilidade" href="#">Alto Contraste</a></li>
+            <li class="lisMenu"><a class="linksMenuAcessibilidade" href="#">Mapa do Site</a></li>
+
+        </ul>
+    </div>
+
+
+    <div id="rowBanner" class="flexRow">
+        <img src="images/bannerIF.png" alt="Banner do site" width="600px" height="auto">
+
+
+        <div class="flexRow" id="barraDePesquisa">
+            <input type="text" id="txtPesquisa" placeholder="Clique aqui e digite sua pesquisa" name="txtPesquisa">
+            <div id="botaoPesquisa">
+                Buscar
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+    <div id="rowMenuNav" class="container">
+
+        <ul class="flexRow" id="menuNav">
+            <li><a class="linksMenuNav" href="#">Acesso a Informação</a></li>
+            <li><a class="linksMenuNav" href="#">Dados Abertos</a></li>
+            <li><a class="linksMenuNav" href="#">Consulta de Processos</a></li>
+            <li><a class="linksMenuNav" href="#">Auditoria Interna</a></li>
+            <li><a class="linksMenuNav" href="#">Comunicação</a></li>
+            <li><a class="linksMenuNav" href="#">Ouvidoria</a></li>
+            <li><a class="linksMenuNav" href="#">Fale Conosco</a></li>
+            <li><a class="linksMenuNav" href="#">Contatos</a></li>
+
+        </ul>
+
+    </div>
+
+    <div class="container" id="conteinerMain">
+        <div id="menusLeft">
+            <ul>
+                <li class="lisMenuLeft"><a class="linksMenuLeft"><div class="iconGreen"></div><span class="txtMenuLeft">ABCD</span></a></li>
+                <li class="lisMenuLeft"><a class="linksMenuLeft"><div class="iconGreen"></div><span class="txtMenuLeft">ABCD</span></a></li>
+                <li class="lisMenuLeft"><a class="linksMenuLeft"><div class="iconGreen"></div><span class="txtMenuLeft">ABCD</span></a></li>
+                <li class="lisMenuLeft"><a class="linksMenuLeft"><div class="iconGreen"></div><span class="txtMenuLeft">ABCD</span></a></li>
+                <li class="lisMenuLeft"><a class="linksMenuLeft"><div class="iconGreen"></div><span class="txtMenuLeft">ABCD</span></a></li>
+                <li class="lisMenuLeft"><a class="linksMenuLeft"><div class="iconGreen"></div><span class="txtMenuLeft">ABCD</span></a></li>
+                <li class="lisMenuLeft"><a class="linksMenuLeft"><div class="iconGreen"></div><span class="txtMenuLeft">ABCD</span></a></li>
+                <li class="lisMenuLeft"><a class="linksMenuLeft"><div class="iconGreen"></div><span class="txtMenuLeft">ABCD</span></a></li>
+
+
+            </ul>
+
+            <div id="menuEnsino">
+                    Ensino
+            </div>
+        </div>
+
+        <div id="mainContent">
+            <img src="images/bannerMain.png" alt="" width="60%" height="auto">
+
+            <div id="rowNoticias">
+                Noticias
+
+            </div>
+
+            <div id="rowConteudo">
+                <ul id="ulConteudo">
+                    <li>Item 1</li>         <!-- Filho direto -->
+                    <li>
+                      Item 2
+                      <ul id="ulFilho1">
+                        <li>Subitem 2.1</li> <!-- Filho do segundo ul, neto do primeiro -->
+                      </ul>
+                    </li>
+                  </ul>
+            </div>
+
+            <h1 id="header"> Conteúdo da Acesso Info</h2>
+    
+
+
+
+        </div>
+
+    </div>
+
+
+    
+
+</body>
+</html>
