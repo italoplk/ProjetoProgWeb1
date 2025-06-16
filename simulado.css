@@ -388,3 +388,64 @@ ul	{
     animation: aumentar 2s;
     animation-iteration-count: infinite;
     margin: 30% 30%;
+}
+
+
+
+@media screen and (max-width: 720px) {
+    .container{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #rowHeader{
+        height: 50vh;
+    }
+    
+
+
+    #rowBanner{
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    #rowBanner > img{ 
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+
+    }
+
+    #rowMenuNav{
+        height: fit-content;
+    }
+
+
+    #menuNav{
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #menuNav li{
+        width: 35%;
+        height: 30px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        background-color: #083900;
+        border-radius: 10px;
+        margin-bottom: 5px;
+        margin: 2px;
+        
+    }
+
+    #menuNav li a{
+        padding: 0px;
+        font-size: 0.8em;
+        border-right: none;
+        text-align: center;
+        border-bottom: 1px solid #083900;
+    }
+}
